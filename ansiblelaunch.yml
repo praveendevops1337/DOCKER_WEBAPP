@@ -3,4 +3,4 @@
   become: yes
   tasks:
      - name: launching docker conatiner.
-       shell: docker run -itd --name myconatiner -p 8000:80 praveendevops1337/docker-weapp 
+       shell: docker run -itd --name myconatinesr -p 8001:80 praveendevops1337/docker-weapp 

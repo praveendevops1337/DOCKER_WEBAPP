@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+     - name: launching docker conatiner
+       shell: docker run -itd --name myconatiner -p 8000:80 praveendevops1337/docker-weapp 
